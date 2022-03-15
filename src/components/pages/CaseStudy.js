@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import projects from "../../project-data/projects";
 
@@ -21,7 +21,7 @@ const CaseStudy = () => {
           <div key={section.text}>
             {section.text && <p>{section.text}</p>}
             {section.code && <p>{section.code}</p>}
-            {section.image && <img src={`/images/${section.image}`} />}
+            {section.image && <img src={`/images/${section.image}`} alt='' />}
           </div>
         )
       })}

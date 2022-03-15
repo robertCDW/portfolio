@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import styles from './../css/unique/TechStack.module.css'
 import PageHeading from '../shared/PageHeading'
@@ -38,14 +38,8 @@ const TechStacks = () => {
     'Virtualization',
     'Microservices',
   ]
-  const [top, setTop] = useState([])
-  const [items, setItems] = useState([])
-
-
-  useEffect(() => {
-    setTop(skills.slice(0,topCount))
-    setItems(skills.slice(topCount,skills.length))
-  }, [])
+  const [top] = useState(skills.slice(0,topCount))
+  const [items] = useState(skills.slice(topCount,skills.length))
 
   return (
     <div id='techstacks' style={{ padding: '2rem 1rem 2rem 1rem'}}>
