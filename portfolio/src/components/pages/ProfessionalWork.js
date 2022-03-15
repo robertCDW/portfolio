@@ -1,9 +1,17 @@
 import React from "react";
+import PageHeading from '../shared/PageHeading'
+import Project from "../shared/Project";
 
 const ProfessionalWork = () => {
   return (
-    <div id='professional-work' style={{ height: '100vh', borderStyle: 'solid'}}>
-      <h1>Professional Work</h1>
+    <div id='professional-work' style={{ padding: '0 1rem' }}>
+      <PageHeading value={'Professional Work'} />
+      <Project 
+        image={'images/therr-app.webp'}
+        title={'Therr'} 
+        description={'Desktop app development using React and Typescript'} 
+        projectLink={'therr'}
+      />
     </div>
   )
 }
