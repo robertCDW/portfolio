@@ -3,6 +3,7 @@ import styles from '../css/unique/Navbar.module.css'
 import NavItem from "../shared/NavItem";
 
 const NavBar = () => {
+
   return (
     <nav className={styles.navbar}>
       <NavItem page='about' title='About' />
