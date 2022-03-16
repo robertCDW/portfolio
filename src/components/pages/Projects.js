@@ -4,7 +4,7 @@ import Project from "../shared/Project";
 
 const Projects = () => {
   return (
-    <div id='projects' style={{ padding: '0 1rem' }}>
+    <div id='projects' style={{ padding: '2rem 1rem 2rem 1rem'}}>
         <PageHeading value={'Projects'} />
         <Project 
           image={'images/therr-app.webp'}

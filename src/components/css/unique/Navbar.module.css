@@ -6,4 +6,8 @@
   height: 100vh;
   background-color: rgb(33, 37, 41);
   overflow: hidden;
+
+  @media (min-width: 500) {
+    background-color: white;
+  }
 }

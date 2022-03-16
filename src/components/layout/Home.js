@@ -5,6 +5,7 @@ import About from '../pages/About';
 import TechStacks from '../pages/TechStacks';
 import Projects from '../pages/Projects';
 import ProfessionalWork from '../pages/ProfessionalWork';
+import ContactMe from "../pages/ContactMe";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <TechStacks />
         <ProfessionalWork />
         <Projects />
+        <ContactMe />
       </main>
     </>
   )

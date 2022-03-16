@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import projects from "../../project-data/projects";
+import ContactMe from "./ContactMe";
 
 const CaseStudy = () => {
   const { id } = useParams()
@@ -29,6 +30,7 @@ const CaseStudy = () => {
         {project.link.deployed && <p>See the deployed site here: <a target="_blank" href={project.link.deployed} rel="noreferrer">Deployed Site</a></p>}
         {project.link.github && <p>See the full source code here: <a target="_blank" href={project.link.github} rel="noreferrer">Github Repo</a></p>}
       </div>
+      <ContactMe />
     </div>
   )
 }
