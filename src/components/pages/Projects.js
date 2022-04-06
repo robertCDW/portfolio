@@ -9,28 +9,28 @@ const Projects = () => {
         <Project 
           image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'}
           title={'Daily Prioritization Scheduler'} 
-          description={'Web app development using React, MongoDB, Express.js, and Node'}
+          description={'Intelligently prioritizes tasks to plan your day using React, MongoDB, Express.js, and Node'}
           projectLink={'dayplanner'}
           inProgress
         />
         <Project 
           image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'}
           title={'Speed Reader'} 
-          description={'Web app development using React, MongoDB, Express.js, and Node'}
+          description={'Learn to reader faster with unlimited content using React, MongoDB, Express.js, and Node'}
           projectLink={'speedreader'}
           inProgress
         />
         <Project 
           image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'}
           title={'JIRA Clone'} 
-          description={'Web app development using React, MongoDB, Express.js, and Node'}
+          description={'JIRA inspired app using React, MongoDB, Express.js, and Node'}
           projectLink={'jira'}
           inProgress
         />
         <Project 
           image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'}
-          title={'Netflix with Messageboard'}
-          description={'Web app development using React, MongoDB, Express.js, and Node'}
+          title={'Musicflix'}
+          description={'Netflix inspired messageboard using React, MongoDB, Express.js, and Node'}
           projectLink={'musicflix'}
         />
     </div>
