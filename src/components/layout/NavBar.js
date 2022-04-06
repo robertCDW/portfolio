@@ -2,7 +2,7 @@ import React from "react";
 import styles from '../css/unique/Navbar.module.css'
 import NavItem from "../shared/NavItem";
 
-const NavBar = () => {
+const NavBar = ({ windowSize }) => {
 
   return (
     <nav className={styles.navbar}>

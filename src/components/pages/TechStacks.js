@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from './../css/unique/TechStack.module.css'
 import PageHeading from '../shared/PageHeading'
+import { StackIconTop, StackIcon } from "../shared/StackIcon";
 
 const TechStacks = () => {
 
@@ -14,7 +15,7 @@ const TechStacks = () => {
     'MongoDB',
     'Linux',
     // lower skills
-    'React (class based and hooks',
+    'React (class based and hooks)',
     'HTML',
     'CSS',
     'JavaScript',
@@ -42,13 +43,13 @@ const TechStacks = () => {
   const [items] = useState(skills.slice(topCount,skills.length))
 
   return (
-    <div id='techstacks' style={{ padding: '2rem 1rem 2rem 1rem'}}>
+    <div id='techstacks' style={{ padding: '2rem 1rem'}}>
       <div>
         <PageHeading value={'Tech Stacks'} />
         <div>
           <ul className={styles.skills}>
-          {top.map(item => <li className={`${styles.skill} ${styles.top}`} key={item}>{item}</li>)}
-          {items.map(item => <li className={styles.skill} key={item}>{item}</li>)}
+            {top.map(item => <div key={item} style={{ display: 'inline'}}><StackIconTop item={item} /></div>)}
+            {items.map(item => <div key={item} style={{ display: 'inline'}}><StackIcon item={item} /></div>)}
           </ul>
         </div>
       </div>
