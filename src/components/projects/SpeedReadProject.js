@@ -6,14 +6,13 @@ import Row from "react-bootstrap/Row";
 import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectCode, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
 
-const TemplateProject = () => {
+const SpeedReadProject = () => {
 
   const tech = [
-    'TypeScript',
     'React',
-    'Redux',
-    'Knex',
-    'PostgresQL'
+    'MongoDB',
+    'Express.js',
+    'Node'
   ]
 
   // to add code snippets, each index is a new line
@@ -28,24 +27,18 @@ const TemplateProject = () => {
       <Row>
         <Col className='lg-8 mx-auto p-3 py-md-5'>
           <ReturnHomeLink />
-          <ProjectTitle title='Therr' />
+          <ProjectTitle title='Speed Reading' />
           <ProjectStack items={tech} />
           <ProjectDescription 
-            text={"I worked with the founder/lead engineer at Therr to build a desktop browser app that allowed users to interact with the data they previously could only access through the mobile app."}
+            text={"I've always thought it was a neat trick being able to read fast, but most of the speed reading apps lack sufficient free content. I created an app that takes stories from Reddit subreddits that are designed around writing, creating a near endless amount of content."}
             />
           <ProjectImage image={'images/therr-app.webp'} />
           <ProjectText 
-            text={"Moving from small, personal apps to a full fledged, professional app was a steep learning curve. There was so much more complexity and I spent the first weeks just staring at the code and troubleshooting minor bugs."} 
-            />
-          <ProjectText 
-            text={"In addition to the increased complexity, the app was in TypeScript and General Assembly had only taught us JavaScript. Additionally, they were using Redux, microservices, and a number of other more advanced concepts that I hadn't been exposed to during the boot camp."} 
+            text={"This was my first experience working heavily with external APIs, so I had to learn how to go through a company's API documentation to access the data that I wanted and then convert it into the format I needed."} 
             />
           <ProjectCode 
             code={code.join('\n')}
           />
-          <ProjectText 
-            text={""} 
-            />
           <ProjectLinks
             deployed={"https://www.google.com"}
             github={"https://www.google.com"}
@@ -57,4 +50,4 @@ const TemplateProject = () => {
   )
 }
 
-export default TemplateProject
+export default SpeedReadProject

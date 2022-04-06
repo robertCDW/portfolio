@@ -4,7 +4,7 @@ import { StackIcon } from './StackIcon';
 import styles from '../css/shared/Projects.module.css'
 
 export const ReturnHomeLink = () => {
-    return <Link to='/' style={{ textDecoration: 'none' }}>&larr; Robert Scales</Link>
+    return <Link to='/portfolio' style={{ textDecoration: 'none' }}>&larr; Robert Scales</Link>
 }
 
 export const ProjectTitle = ({ title }) => {
@@ -49,9 +49,11 @@ export const ProjectCode = ({ code }) => {
     )
 }
 
-export const ProjectLinks = ({ deployed, github}) => {
+export const ProjectLinks = ({ deployed, github, backend }) => {
     return <div>
         {deployed && <p>See the deployed site here: <a href={deployed} target="_blank" rel="noreferrer">Deployed Site</a></p>}
-        {github && <p>See the full source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
+        {github && !backend && <p>See the full source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
+        {github && backend && <p>See the front end source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
+        {backend && <p>See the backend end source code here: <a href={backend} target="_blank" rel="noreferrer">Github Repo</a></p>}
   </div>
 }

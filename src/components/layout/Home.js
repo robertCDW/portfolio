@@ -6,7 +6,7 @@ import TechStacks from '../pages/TechStacks';
 import Projects from '../pages/Projects';
 import ProfessionalWork from '../pages/ProfessionalWork';
 import ContactMe from "../pages/ContactMe";
-import Spacer from "./Spacer";
+// import Spacer from "./Spacer";
 
 const Home = () => {
 
@@ -31,9 +31,9 @@ const Home = () => {
           <NavBar windowSize={windowSize}/>
         </header>}
       <main style={{ 
-          marginLeft: windowSize > smallDeviceSize ? '20vw' : '0'
+          marginLeft: windowSize > smallDeviceSize ? '20vw' : '0',
+          padding: '5rem 2rem 0 2rem'
         }}>
-        <Spacer height={'5'} />
         <About />
         <TechStacks />
         <ProfessionalWork />

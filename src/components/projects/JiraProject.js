@@ -8,13 +8,12 @@ import ContactMe from "../pages/ContactMe";
 
 const TemplateProject = () => {
 
-  const tech = [
-    'TypeScript',
-    'React',
-    'Redux',
-    'Knex',
-    'PostgresQL'
-  ]
+    const tech = [
+        'React',
+        'MongoDB',
+        'Express.js',
+        'Node'
+      ]
 
   // to add code snippets, each index is a new line
   const code = [
@@ -28,24 +27,18 @@ const TemplateProject = () => {
       <Row>
         <Col className='lg-8 mx-auto p-3 py-md-5'>
           <ReturnHomeLink />
-          <ProjectTitle title='Therr' />
+          <ProjectTitle title='Jira Clone' />
           <ProjectStack items={tech} />
           <ProjectDescription 
-            text={"I worked with the founder/lead engineer at Therr to build a desktop browser app that allowed users to interact with the data they previously could only access through the mobile app."}
+            text={"I worked with a friend who's a Senior Developer at a large financial organization because I wanted to learn how she approaches structuring React apps and understanding modern development best practices."}
             />
           <ProjectImage image={'images/therr-app.webp'} />
           <ProjectText 
-            text={"Moving from small, personal apps to a full fledged, professional app was a steep learning curve. There was so much more complexity and I spent the first weeks just staring at the code and troubleshooting minor bugs."} 
-            />
-          <ProjectText 
-            text={"In addition to the increased complexity, the app was in TypeScript and General Assembly had only taught us JavaScript. Additionally, they were using Redux, microservices, and a number of other more advanced concepts that I hadn't been exposed to during the boot camp."} 
+            text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />
           <ProjectCode 
             code={code.join('\n')}
           />
-          <ProjectText 
-            text={""} 
-            />
           <ProjectLinks
             deployed={"https://www.google.com"}
             github={"https://www.google.com"}

@@ -15,7 +15,7 @@ const TemplateProject = () => {
 
   // to add code snippets, each index is a new line
   const code = [
-    "text",
+    "<p>text</p>",
     "text",
     "text"
   ]
@@ -30,7 +30,7 @@ const TemplateProject = () => {
           <ProjectDescription 
             text={"I worked with the [Senior UX Designer] and [VP of Technology] at [Therr] to build a thing for [Instagram] that [does a thing that provides value]."}
             />
-          <ProjectImage image={"https://i.imgur.com/XwAselJ.jpeg"} />
+          <ProjectImage image={'images/therr-app.webp'} />
           <ProjectText 
             text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />

@@ -6,14 +6,13 @@ import Row from "react-bootstrap/Row";
 import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectCode, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
 
-const TemplateProject = () => {
+const DayPlannerProject = () => {
 
   const tech = [
-    'TypeScript',
     'React',
-    'Redux',
-    'Knex',
-    'PostgresQL'
+    'MongoDB',
+    'Express.js',
+    'Node'
   ]
 
   // to add code snippets, each index is a new line
@@ -28,24 +27,18 @@ const TemplateProject = () => {
       <Row>
         <Col className='lg-8 mx-auto p-3 py-md-5'>
           <ReturnHomeLink />
-          <ProjectTitle title='Therr' />
+          <ProjectTitle title='Daily Prioritization Scheduler' />
           <ProjectStack items={tech} />
           <ProjectDescription 
-            text={"I worked with the founder/lead engineer at Therr to build a desktop browser app that allowed users to interact with the data they previously could only access through the mobile app."}
+            text={"My biggest productivity struggle is deciding what to do next and figuring out what resources I need to get started. My goal with this project was to create a tool that creates time blocks, prioritizes tasks, cuts down on the time between tasks, and makes sure that nothings gets neglected throughout the day."}
             />
           <ProjectImage image={'images/therr-app.webp'} />
           <ProjectText 
-            text={"Moving from small, personal apps to a full fledged, professional app was a steep learning curve. There was so much more complexity and I spent the first weeks just staring at the code and troubleshooting minor bugs."} 
-            />
-          <ProjectText 
-            text={"In addition to the increased complexity, the app was in TypeScript and General Assembly had only taught us JavaScript. Additionally, they were using Redux, microservices, and a number of other more advanced concepts that I hadn't been exposed to during the boot camp."} 
+            text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />
           <ProjectCode 
             code={code.join('\n')}
           />
-          <ProjectText 
-            text={""} 
-            />
           <ProjectLinks
             deployed={"https://www.google.com"}
             github={"https://www.google.com"}
@@ -57,4 +50,4 @@ const TemplateProject = () => {
   )
 }
 
-export default TemplateProject
+export default DayPlannerProject
