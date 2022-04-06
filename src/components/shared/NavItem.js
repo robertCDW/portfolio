@@ -1,9 +1,10 @@
 import React from "react";
+import styles from '../css/shared/NavItem.module.css'
 
 const NavItem = ({ page, title }) => {
-  return <h2
+  return <h2 className={ styles.navItem }
       onClick={e => document.querySelector(`#${page}`).scrollIntoView({ behavior: 'smooth' })}
-      style={{ color: 'white', marginBottom: '3rem', fontSize: 'min(3vw, 2.3rem)' }}
+      style={{  }}
       >
         {title}
       </h2>

@@ -1,0 +1,14 @@
+.appImage {
+    display: block;
+    margin: 2em auto;
+    max-width:100%;
+}
+
+.codeSnippet {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    background: rgb(33, 37, 41);
+    color: white;
+}

@@ -1,0 +1,14 @@
+.navItem {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 7px;
+    transition-duration: 0.1s;
+    color: white;
+    margin-bottom: 3rem; 
+    /* font-size: min(3vw, 2.3rem); */
+}
+
+.navItem:hover {
+    /* background-color: rgb(33, 37, 41); */
+    background-color: rgb(43, 47, 51);
+}
