@@ -4,7 +4,7 @@ import { StackIcon } from './StackIcon';
 import styles from '../css/shared/Projects.module.css'
 
 export const ReturnHomeLink = () => {
-    return <Link to='/portfolio' style={{ textDecoration: 'none' }}>&larr; Robert Scales</Link>
+    return <Link to='/portfolio/' style={{ textDecoration: 'none' }}>&larr; Robert Scales</Link>
 }
 
 export const ProjectTitle = ({ title }) => {

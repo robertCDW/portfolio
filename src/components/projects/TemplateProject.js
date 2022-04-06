@@ -30,7 +30,7 @@ const TemplateProject = () => {
           <ProjectDescription 
             text={"I worked with the [Senior UX Designer] and [VP of Technology] at [Therr] to build a thing for [Instagram] that [does a thing that provides value]."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'} />
           <ProjectText 
             text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />
