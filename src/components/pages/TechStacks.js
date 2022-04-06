@@ -15,7 +15,7 @@ const TechStacks = () => {
     'MongoDB',
     'Linux',
     // lower skills
-    'React (class based and hooks',
+    'React (class based and hooks)',
     'HTML',
     'CSS',
     'JavaScript',
