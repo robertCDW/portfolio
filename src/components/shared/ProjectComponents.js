@@ -27,10 +27,10 @@ export const ProjectDescription = ({ text }) => {
     return <p className="lead">{text}</p>
 }
 
-export const ProjectImage = () => {
+export const ProjectImage = ({ image }) => {
     return <img 
         className={ styles.appImage }
-        src={"https://i.imgur.com/XwAselJ.jpeg"}
+        src={image}
         alt={"App"}
         />
 }
@@ -40,17 +40,18 @@ export const ProjectText = ({ text }) => {
 }
 
 export const ProjectCode = ({ code }) => {
+    // &lt; makes <
+    // &gt; makes >
     return (
         <div className={ styles.codeSnippet }>
-            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
-            &lt;p&gt;And another line of sample text here...&lt;/p&gt;</code></pre>
+            <pre><code>{code}</code></pre>
         </div>
     )
 }
 
 export const ProjectLinks = ({ deployed, github}) => {
     return <div>
-        {deployed && <p>See the deployed site here: <a target="_blank" href={deployed} rel="noreferrer">Deployed Site</a></p>}
-        {github && <p>See the full source code here: <a target="_blank" href={github} rel="noreferrer">Github Repo</a></p>}
+        {deployed && <p>See the deployed site here: <a href={deployed} target="_blank" rel="noreferrer">Deployed Site</a></p>}
+        {github && <p>See the full source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
   </div>
 }
