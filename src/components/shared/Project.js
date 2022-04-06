@@ -21,7 +21,7 @@ const Project = ({ image, title, description, projectLink, inProgress }) => {
         <Card.Body>
           <Container>
             <Row className='align-items-center'>
-              <Col xs='2'>
+              <Col sm='2' style={{ maxHeight: '50vh' }}> 
                 <img className={styles.image} src={image} alt={title} />
               </Col>
               <Col>
