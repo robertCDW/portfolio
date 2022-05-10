@@ -27,7 +27,7 @@ const MusicflixProject = () => {
       <Row>
         <Col className='lg-8 mx-auto p-3 py-md-5'>
           <ReturnHomeLink />
-          <ProjectTitle title='Musicflix (Netflix Inspired Messageboard)' />
+          <ProjectTitle title='Netflix Clone' />
           <ProjectStack items={tech} />
           <ProjectDescription 
             text={"I worked with two teammates in my General Assembly bootcamp to build a Netflix-inspired app that lets users watch videos by genre and with an attached message board on each video that requires users to sign in to comment but not to see other users' the messages."}

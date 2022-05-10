@@ -55,5 +55,5 @@ export const ProjectLinks = ({ deployed, github, backend }) => {
         {github && !backend && <p>See the full source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
         {github && backend && <p>See the front end source code here: <a href={github} target="_blank" rel="noreferrer">Github Repo</a></p>}
         {backend && <p>See the backend end source code here: <a href={backend} target="_blank" rel="noreferrer">Github Repo</a></p>}
-  </div>
+    </div>
 }
