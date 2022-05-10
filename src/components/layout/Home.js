@@ -15,7 +15,7 @@ const Home = () => {
   } 
 
   const [windowSize, setWindowSize] = useState(window.innerWidth)
-  const [smallDeviceSize] = useState(1000)
+  const [smallDeviceSize] = useState(600)
 
   useEffect(() => {
     window.addEventListener('resize', handleResize)

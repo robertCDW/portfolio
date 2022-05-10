@@ -30,9 +30,9 @@ const SpeedReadProject = () => {
           <ProjectTitle title='Speed Reading' />
           <ProjectStack items={tech} />
           <ProjectDescription 
-            text={"I've always thought it was a neat trick being able to read fast, but most of the speed reading apps lack sufficient free content. I created an app that takes stories from Reddit subreddits that are designed around writing, creating a near endless amount of content."}
+            text={"I've always thought it was a neat trick to read fast, but most of the speed reading apps lack sufficient free content so I created an app that uses Reddit public APIs to take content from subreddits where users submit stories, creating a near endless amount of material."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'} />
           <ProjectText 
             text={"This was my first experience working heavily with external APIs, so I had to learn how to go through a company's API documentation to access the data that I wanted and then convert it into the format I needed."} 
             />

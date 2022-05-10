@@ -33,7 +33,7 @@ const TemplateProject = () => {
           <ProjectDescription 
             text={"I worked with the founder/lead engineer at Therr to build a desktop browser app that allowed users to interact with the data they previously could only access through the mobile app."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={"https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg"} />
           <ProjectText 
             text={"Moving from small, personal apps to a full fledged, professional app was a steep learning curve. There was so much more complexity and I spent the first weeks just staring at the code and troubleshooting minor bugs."} 
             />
@@ -47,8 +47,7 @@ const TemplateProject = () => {
             text={""} 
             />
           <ProjectLinks
-            deployed={"https://www.google.com"}
-            github={"https://www.google.com"}
+            deployed={"https://therr.com/"}
             />
           <ContactMe />
         </Col>

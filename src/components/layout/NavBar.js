@@ -1,16 +1,48 @@
 import React from "react";
 import styles from '../css/unique/Navbar.module.css'
-import NavItem from "../shared/NavItem";
+import { Link as LinkScroll } from "react-scroll/modules";
+// import NavItem from "../shared/NavItem";
 
 const NavBar = ({ windowSize }) => {
 
   return (
     <nav className={styles.navbar}>
-      <NavItem page='about' title='About' />
-      <NavItem page='techstacks' title='Tech Stacks' />
-      <NavItem page='professional-work' title='Professional Work' />
-      <NavItem page='projects' title='Projects' />
-      <NavItem page='contact' title='Contact Me' />
+      <LinkScroll 
+        to='about'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>About</LinkScroll>
+      <LinkScroll 
+        to='techstacks'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>Tech Stacks</LinkScroll>
+      <LinkScroll 
+        to='professional-work'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>Professional Work</LinkScroll>
+      <LinkScroll 
+        to='projects'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>Projects</LinkScroll>
+      <LinkScroll 
+        to='contact'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>Contact Me</LinkScroll>
+
     </nav>
   )
 }

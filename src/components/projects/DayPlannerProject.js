@@ -30,9 +30,9 @@ const DayPlannerProject = () => {
           <ProjectTitle title='Daily Prioritization Scheduler' />
           <ProjectStack items={tech} />
           <ProjectDescription 
-            text={"My biggest productivity struggle is deciding what to do next and figuring out what resources I need to get started. My goal with this project was to create a tool that creates time blocks, prioritizes tasks, cuts down on the time between tasks, and makes sure that nothings gets neglected throughout the day."}
+            text={"My biggest productivity struggle is deciding what to do next and figuring out what resources I need to get started. My goal with this project was to make a tool that creates time blocks, prioritizes tasks, cuts down on the time between tasks, and ensuring nothing gets neglected throughout the day."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'} />
           <ProjectText 
             text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />

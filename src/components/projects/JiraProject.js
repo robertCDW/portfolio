@@ -32,7 +32,7 @@ const TemplateProject = () => {
           <ProjectDescription 
             text={"I worked with a friend who's a Senior Developer at a large financial organization because I wanted to learn how she approaches structuring React apps and understanding modern development best practices."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'} />
           <ProjectText 
             text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />

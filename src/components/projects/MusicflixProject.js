@@ -27,12 +27,12 @@ const MusicflixProject = () => {
       <Row>
         <Col className='lg-8 mx-auto p-3 py-md-5'>
           <ReturnHomeLink />
-          <ProjectTitle title='Netflix with Messageboard' />
+          <ProjectTitle title='Netflix Clone' />
           <ProjectStack items={tech} />
           <ProjectDescription 
             text={"I worked with two teammates in my General Assembly bootcamp to build a Netflix-inspired app that lets users watch videos by genre and with an attached message board on each video that requires users to sign in to comment but not to see other users' the messages."}
             />
-          <ProjectImage image={'images/therr-app.webp'} />
+          <ProjectImage image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'} />
           <ProjectText 
             text={"I did some stuff that did a thing. It was hard. This is how I did it."} 
             />
