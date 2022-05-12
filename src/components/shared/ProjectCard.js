@@ -16,7 +16,7 @@ const ProjectCard = ({ image, title, description, projectLink, inProgress }) => 
   }
 
   return (
-    <div style={{ margin: '2rem' }}>
+    <div style={{ margin: '2rem 0'}}>
       <Card>
         <Card.Body>
           <Container>
