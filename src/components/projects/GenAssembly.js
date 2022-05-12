@@ -26,8 +26,11 @@ const GenAssemblyBackground = () => {
             />
           <ProjectImage image={genAssemblyImg} />
           <ProjectText 
-            text={"While I use coding in my day to day work, it was never at the forefront of my day but it was always my favorite part of the day. I could get lost for hours"} 
+            text={"Network engineering has slowly been transitioning towards a programming focused NetOps, and while I use coding in my day to day work as a network engineer, it was never at the forefront of my day but it was always my favorite part of the day and I could get lost for hours. So I finally joined a bootcamp to pursue my passion for development."} 
             />
+          <ProjectText 
+            text={"So far, it's been an amazing decision."}
+          />
           <ContactMe />
         </Col>
       </Row>

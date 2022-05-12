@@ -31,6 +31,9 @@ const ArmyBackground = () => {
           <ProjectText 
             text={"Myself and the team developed tools to automate processes such as documentation creation and add common configurations to servers, improving time to deployment and reducing the likelihood of human error."} 
             />
+          <ProjectText 
+            text={"Python with the Requests library was our primary tool for automating Meraki deployments and Ansible was the primary tool for Cisco deployments."} 
+            />
           <ContactMe />
         </Col>
       </Row>
