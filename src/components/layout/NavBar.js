@@ -27,14 +27,21 @@ const NavBar = ({ windowSize }) => {
         smooth={true}
         spy={true}
         duration={500}
-        exact='true'>Professional Work</LinkScroll>
+        exact='true'>Professional Projects</LinkScroll>
       <LinkScroll 
         to='projects'
         className={styles.navItem}
         smooth={true}
         spy={true}
         duration={500}
-        exact='true'>Projects</LinkScroll>
+        exact='true'>Personal Projects</LinkScroll>
+      <LinkScroll 
+        to='background'
+        className={styles.navItem}
+        smooth={true}
+        spy={true}
+        duration={500}
+        exact='true'>Background</LinkScroll>
       <LinkScroll 
         to='contact'
         className={styles.navItem}

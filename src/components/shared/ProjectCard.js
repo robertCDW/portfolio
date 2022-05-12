@@ -28,7 +28,7 @@ const ProjectCard = ({ image, title, description, projectLink, inProgress }) => 
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>
                 <Link to={`/project/${projectLink}`}>
-                  <Button variant='success'>Case Study &rarr;</Button>
+                  <Button variant='success'>Learn More &rarr;</Button>
                 </Link>
               </Col>
             </Row>
