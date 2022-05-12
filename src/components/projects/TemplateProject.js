@@ -3,7 +3,16 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from "react-bootstrap/Row";
 
-import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectCode, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
+import { 
+  ProjectTitle,
+  ProjectStack,
+  ReturnHomeLink,
+  ProjectDescription,
+  ProjectText,
+  ProjectCode,
+  ProjectLinks,
+  ProjectImage
+} from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
 
 const TemplateProject = () => {

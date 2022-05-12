@@ -25,7 +25,6 @@ const TechStacks = () => {
     'Java',
     'C++',
     'PostgreSQL',
-    'Redis',
     'Express.js',
     'jQuery',
     'Bootstrap',

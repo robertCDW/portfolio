@@ -11,6 +11,10 @@ export const ProjectTitle = ({ title }) => {
     return <h1>Project: {title}</h1>
 }
 
+export const NonProjectTitle = ({ title }) => {
+    return <h1>{title}</h1>
+}
+
 export const ProjectStack = ({ items }) => {
     console.log(items)
     return (
@@ -32,6 +36,7 @@ export const ProjectImage = ({ image }) => {
         className={ styles.appImage }
         src={image}
         alt={"App"}
+        style={{ maxHeight: '60vh' }}
         />
 }
 

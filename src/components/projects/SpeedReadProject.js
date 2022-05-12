@@ -3,23 +3,17 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from "react-bootstrap/Row";
 
-import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectCode, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
+import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
 
 const SpeedReadProject = () => {
 
   const tech = [
     'React',
+    'RedditAPI',
     'MongoDB',
     'Express.js',
     'Node'
-  ]
-
-  // to add code snippets, each index is a new line
-  const code = [
-    "<p>text</p>",
-    "<p>text</p>",
-    "<p>text</p>"
   ]
 
   return (
@@ -36,12 +30,15 @@ const SpeedReadProject = () => {
           <ProjectText 
             text={"This was my first experience working heavily with external APIs, so I had to learn how to go through a company's API documentation to access the data that I wanted and then convert it into the format I needed."} 
             />
-          <ProjectCode 
-            code={code.join('\n')}
-          />
+          <ProjectText 
+            text={"This was a fun project because it forced me to learn more about state and promises, plus it's an intuitive way to train difficult to acquire but useful skills."} 
+            />
+          <ProjectText 
+            text={"Future plans: I'd like to give users the ability to add their own subreddits, as well as move back and forth between responses to a prompt. Currently only the first prompt can be accessed."} 
+            />
           <ProjectLinks
-            deployed={"https://www.google.com"}
-            github={"https://www.google.com"}
+            deployed={"https://robscalesdev.github.io/speedreader/"}
+            github={"https://github.com/robscalesdev/speedreader"}
             />
           <ContactMe />
         </Col>

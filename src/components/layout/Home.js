@@ -5,8 +5,8 @@ import About from '../pages/About';
 import TechStacks from '../pages/TechStacks';
 import Projects from '../pages/Projects';
 import ProfessionalWork from '../pages/ProfessionalWork';
+import Background from '../pages/Background';
 import ContactMe from "../pages/ContactMe";
-// import Spacer from "./Spacer";
 
 const Home = () => {
 
@@ -38,6 +38,7 @@ const Home = () => {
         <TechStacks />
         <ProfessionalWork />
         <Projects />
+        <Background />
         <ContactMe />
       </main>
     </>
