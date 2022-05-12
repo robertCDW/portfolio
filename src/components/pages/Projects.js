@@ -10,13 +10,13 @@ const Projects = () => {
         <ProjectCard 
           image={netflixImg}
           title={'Netflix Clone'}
-          description={'Netflix inspired app using React, Redux, MongoDB, Express.js, and Node'}
+          description={'Netflix inspired app using React, Redux, and Styled Components'}
           projectLink={'netflix'}
         />
         <ProjectCard 
           image={speedReaderImg}
           title={'Speed Reader'} 
-          description={'Learn to reader faster with unlimited content using React, MongoDB, Express.js, and Node'}
+          description={'Learn to reader faster with unlimited content using React and RedditAPI'}
           projectLink={'speedreader'}
         />
         <ProjectCard
