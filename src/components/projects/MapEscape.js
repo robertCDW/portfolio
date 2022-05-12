@@ -19,7 +19,7 @@ const MapEscapeProject = () => {
 
   const tech = [
     'React',
-    'Node'
+    'Styled Components'
   ]
 
   return (
