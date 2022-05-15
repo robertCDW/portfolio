@@ -27,9 +27,9 @@ const ProjectCard = ({ image, title, description, projectLink, inProgress, deplo
               <Col>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>
-                {deployed && <Button target='_blank' href={deployed} style={{ marginRight: '0.5rem' }}>Deployed Site</Button>}
+                {deployed && <Button target='_blank' href={deployed} style={{ marginRight: '0.5rem', marginBottom: '0.5rem' }}>Deployed Site</Button>}
                 <Link to={`/project/${projectLink}`}>
-                  <Button variant='success'>Learn More &rarr;</Button>
+                  <Button variant='success' style={{ marginBottom: '0.5rem' }}>Learn More &rarr;</Button>
                 </Link>
               </Col>
             </Row>
