@@ -13,7 +13,7 @@ export const netflixImg = 'https://user-images.githubusercontent.com/31513375/16
 
 export const mapEscapeImg = 'https://user-images.githubusercontent.com/31513375/167741493-8e4493b7-8468-48f9-ace1-ecd955f41f24.png'
 
-export const speedReaderImg = 'https://user-images.githubusercontent.com/31513375/168168450-d2afff01-0d19-4ea2-acad-9d18afb38500.png'
+export const speedReaderImg = 'https://user-images.githubusercontent.com/31513375/168481171-dd30c03a-797e-4aad-aa76-29221e5b37b9.png'
 
 // background
 
