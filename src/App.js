@@ -17,6 +17,17 @@ import CdwBackground from './components/projects/Cdw';
 import GenAssemblyBackground from './components/projects/GenAssembly';
 
 function App() {
+
+  // const [scrollY, setScrollY] = useState(0)
+  // const [shouldScroll, setShouldScroll] = useState(false)
+
+  // // starts at home, scrollY needs to be updated by event listener in home, should scroll should be false
+  // // when you go to another page, scrollY should be stored
+  // // when you return home, shouldScroll is set to true and is used by home, scrolls to scrollY position
+  // const returnToHome = () => {
+    // console.log(window.scrollY)
+  // }
+
   return (
     <>
       <Routes>

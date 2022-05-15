@@ -17,8 +17,15 @@
   transition-duration: 0.1s;
   color: #ccc;
   margin-bottom: 3rem; 
-  font-size: 2vw;
+  font-size: 2rem;
+  max-width: 100%;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .navItem {
+    font-size: 1rem;
+  }
 }
 
 .navItem:hover {

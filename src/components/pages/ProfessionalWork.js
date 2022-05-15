@@ -11,6 +11,7 @@ const ProfessionalWork = () => {
         title={'Therr'} 
         description={'Desktop app development using React and Typescript'} 
         projectLink={'therr'}
+        deployed={"https://therr.com/"}
       />
     </div>
   )

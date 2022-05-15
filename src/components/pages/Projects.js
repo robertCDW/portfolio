@@ -12,18 +12,21 @@ const Projects = () => {
           title={'Netflix Clone'}
           description={'Netflix inspired app using React, Redux, and Styled Components'}
           projectLink={'netflix'}
+          deployed={"https://robscalesdev.github.io/netflix-clone"}
         />
         <ProjectCard 
           image={speedReaderImg}
           title={'Speed Reader'} 
           description={'Learn to reader faster with unlimited content using React and RedditAPI'}
           projectLink={'speedreader'}
+          deployed={"https://robscalesdev.github.io/speedreader/"}
         />
         <ProjectCard
           image={mapEscapeImg}
           title={'Map Escape'} 
           description={'Uses graph search algorithms to find the fasstest way to the edge. Can you keep the chicken from escaping?'}
           projectLink={'mapescape'}
+          deployed={"https://robscalesdev.github.io/map-escape/"}
         />
         {/* <ProjectCard 
           image={'https://user-images.githubusercontent.com/71351016/162082449-a7264ea6-5f49-4520-b9b0-1582ffaed4cb.jpg'}
