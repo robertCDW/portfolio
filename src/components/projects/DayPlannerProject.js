@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from "react-bootstrap/Row";
 
 import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectCode, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
+import { animateScroll as scroll } from 'react-scroll'
 
 const DayPlannerProject = () => {
+
+  useEffect(() => {
+    scroll.scrollToTop({ duration: 0 })    
+  }, [])
 
   const tech = [
     'React',

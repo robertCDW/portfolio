@@ -32,7 +32,8 @@ const Home = () => {
         </header>}
       <main style={{ 
           marginLeft: windowSize > smallDeviceSize ? '20vw' : '0',
-          padding: '5rem 2rem 0 2rem'
+          padding: '5rem 2rem 0 2rem',
+          maxWidth: '1100px'
         }}>
         <About />
         <TechStacks />

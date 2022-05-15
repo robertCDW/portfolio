@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from "react-bootstrap/Row";
@@ -6,8 +6,13 @@ import Row from "react-bootstrap/Row";
 import { ProjectTitle, ProjectStack, ReturnHomeLink, ProjectDescription, ProjectText, ProjectLinks, ProjectImage } from "../shared/ProjectComponents";
 import ContactMe from "../pages/ContactMe";
 import { speedReaderImg } from "../assets/imageLinks";
+import { animateScroll as scroll } from 'react-scroll'
 
 const SpeedReadProject = () => {
+
+  useEffect(() => {
+    scroll.scrollToTop({ duration: 0 })    
+  }, [])
 
   const tech = [
     'React',

@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card'
 import styles from '../css/shared/Project.module.css'
 // import newimg from '../../images/therr-app.webp'
 
-const ProjectCard = ({ image, title, description, projectLink, inProgress }) => {
+const ProjectCard = ({ image, title, description, projectLink, inProgress, deployed }) => {
 
   if (inProgress) {
     title = `In progress: ${title}`
@@ -27,6 +27,7 @@ const ProjectCard = ({ image, title, description, projectLink, inProgress }) => 
               <Col>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>
+                {deployed && <Button target='_blank' href={deployed} style={{ marginRight: '0.5rem' }}>Deployed Site</Button>}
                 <Link to={`/project/${projectLink}`}>
                   <Button variant='success'>Learn More &rarr;</Button>
                 </Link>
