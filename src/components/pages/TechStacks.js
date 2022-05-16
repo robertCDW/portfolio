@@ -14,14 +14,17 @@ const TechStacks = () => {
     'React',
     'MongoDB',
     'Linux',
+    'JavaScript',
+    'RESTful APIs',
+    'Microservices',
+    'Django',
+    'GitHub',
     // lower skills
     'HTML',
     'CSS',
-    'JavaScript',
     'SQL',
     'Mongo',
     'Typescript',
-    'Django',
     'Java',
     'C++',
     'PostgreSQL',
@@ -33,10 +36,8 @@ const TechStacks = () => {
     'AWS',
     'Google Cloud',
     'Docker',
-    'RESTful Routing',
     'JSON',
     'Virtualization',
-    'Microservices',
   ]
   const [top] = useState(skills.slice(0,topCount))
   const [items] = useState(skills.slice(topCount,skills.length))
